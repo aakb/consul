@@ -60,8 +60,8 @@ da:
       share: "Del dit projekt"
     budget_investment_unfeasible:
       hi: "Kære bruger,"
-      new_html: "På trods af dette, opfordrer vi dig til at udforme en <strong>ny investering</strong>, der er tilpasset forholdene i denne proces. Hvis du ønsker det klik på følgende link:%{url}."
-      new_href: "nyt investeringsprojekt"
+      pre_explanation: "Din idé er ikke blevet godkendt. Begrundelsen er:"
+      post_explanation: "Er du uenig i begrundelsen eller vil du ændre noget i investeringen sådan, at den kan godkendes, så skal du kontakte en administrator."
       sincerely: "Med venlig hilsen"
       sorry: "Undskyld ulejligheden og vi takker endnu engang for din deltagelse."
       subject: "Dit investeringsprojekt '%{code}' er blevet vurderet som uigennemførligt"
