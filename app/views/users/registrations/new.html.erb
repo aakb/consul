@@ -49,6 +49,27 @@
               target: "_blank")).html_safe %>
         </span>
       <% end %>
+
+      <p>
+        <%= t("devise_views.users.registrations.new.pre_consent") %>
+      </p>
+
+      <%= f.label :consent_and_information do %>
+        <%= f.check_box :consent_and_information, title: "Something", label: false %>
+        <span class="checkbox" style="display:block;position:relative;margin-left:2em;margin-top:-2.2em;">
+          <%= t("devise_views.users.registrations.new.consent") %>
+        </span>
+      <% end %>
+
+      <p>
+          <%= t("devise_views.users.registrations.new.post_consent",
+              consent_readmore_link: link_to(t("devise_views.users.registrations.new.consent_readmore_link"), page_path("privacy"))).html_safe %>
+      </p>
+
+      <p>
+        <%= t("devise_views.users.registrations.new.consent_cancel") %>
+      </p>
+
       <div class="small-12 medium-6 small-centered">
         <%= f.submit t("devise_views.users.registrations.new.submit"), class: "button expanded" %>
       </div>

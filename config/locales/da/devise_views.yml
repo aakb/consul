@@ -121,6 +121,11 @@ da:
           username_is_not_available: Brugernavnet er allerede taget af en anden bruger
           username_label: Brugernavn
           username_note: Det navn, der vises i forbindelse med dine indlæg
+          pre_consent: Borgerservice i Aarhus Kommune ønsker i forbindelse med at du som borger kan deltage i prioriteringen af offentlige budgetter at indhente dit samtykke til, at vi behandler personoplysninger om dig.
+          consent: Ved afkrydsning af dette felt giver du samtykke til at Borgerservice i Aarhus Kommune, må behandle dine oplysninger som beskrevet. Dit brugernavn vil blive vist i forbindelse med dine indlæg.
+          post_consent: Borgerservice benytter ikke altid dine oplysninger, men vil have mulighed for at kontakte dig pr. e-mail. %{consent_readmore_link}
+          consent_readmore_link: Læs mere om anvendelse af personoplysninger
+          consent_cancel: Det samtykke du har givet, kan til enhver tid trækkes tilbage, dog uden at ændre på lovligheden af den behandling, der allerede måtte være foretaget. Hvis du ønsker at tilbagetrække dit samtykke, kan du henvende dig mundtligt, på mail eller skriftligt til Demokrati og Udvikling, Borgerservice, Hack Kampmanns Pl. 2, 8000 Aarhus C.
         success:
           back_to_index: Jeg har forstået det; gå tilbage til min startside
           instructions_1_html: Vær venlig <b>at tjekke din e-mail</b> - vi har sendt dig et <b>link, så du kan bekræfte din konto</b>.
