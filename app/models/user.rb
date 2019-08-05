@@ -43,6 +43,8 @@ class User < ApplicationRecord
   validates :official_level, inclusion: {in: 0..5}
   validates :terms_of_service, acceptance: { allow_nil: false }, on: :create
 
+  validates :consent_and_information, acceptance: { allow_nil: false }, on: :create
+
   validates_associated :organization, message: false
 
   accepts_nested_attributes_for :organization, update_only: true
